@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button,
+#addBtn,
+#saveBtn,
+input[name="crTb"],
+input[name="crLst"] {
+    cursor: pointer;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.block {
+    min-height: 250px;
+    border-radius: 5px;
+    background-color: lightgray;
+    margin: 20px 0;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#textarea {
+    width: 100%;
+    height: 150px;
+    resize: none;
+}
+
+
+.stBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.edit {
+    padding: 7px;
+    background-color: rgb(215, 215, 92);
+    border-radius: 2px;
+    margin-right: 5px;
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+}
+
+.style {
+    padding: 7px;
+    background-color: rgb(0, 149, 255);
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+}
+
+.show {
+    display: block;
+}
+
+.b-Btn {
+    display: flex;
+}
+
+#addBtn {
+    padding: 7px;
+    margin-right: 5px;
+    background-color: brown;
+    border-radius: 2px;
+}
+
+#saveBtn {
+    padding: 7px;
+    background-color: rgb(49, 167, 63);
+    border-radius: 2px;
+}
+
+#preview {
+    font-size: 14px;
+}
+
+.color-box {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.colors {
+    width: 150px;
+    height: 150px;
+    outline: 1px solid #000;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hide {
+    display: none;
+}
+
+.block2 {
+    min-height: 250px;
+    width: 60%;
+    border-radius: 5px;
+    background-color: lightgray;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: none;
+    padding: 15px;
+}
+
+.tbForm input[type=text],
+.lsForm input[type=text],
+.lsForm select {
+    padding: 5px;
+    width: 80%;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+#alignT label,
+.alignL label {
+    display: inline-block;
+    width: 120px;
+    margin-right: 15px;
+
+}
+
+.lowerRow select {
+    padding: 5px;
+    border-radius: 4px;
+    width: 80px;
+    margin: 5px;
+}
+
+input[name="crTb"],
+input[name="crLst"] {
+    padding: 4px;
+    background-color: limegreen;
+    border-radius: 4px;
+    border-color: limegreen;
+}
